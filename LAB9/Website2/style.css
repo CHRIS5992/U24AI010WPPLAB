@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+}
+
+.logo img {
+    width: 80px;
+    margin-right: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: #0059b3;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Banner */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Quick Links */
+.quick-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.link-box {
+    background: #004080;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.link-box a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Event Section */
+.event {
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+.event-box {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.event-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    padding: 15px;
+}
